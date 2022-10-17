@@ -1,4 +1,4 @@
-package jscc;
+package jssc;
 
 public class NativeLib {
 

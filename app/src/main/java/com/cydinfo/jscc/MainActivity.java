@@ -11,10 +11,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.cydinfo.jssc.SerialPort;
-import com.cydinfo.jssc.SerialPortEvent;
-import com.cydinfo.jssc.SerialPortEventListener;
-import com.cydinfo.jssc.SerialPortException;
+import jssc.SerialPort;
+import jssc.SerialPortEvent;
+import jssc.SerialPortEventListener;
+import jssc.SerialPortException;
 
 
 /**
@@ -72,12 +72,12 @@ public class MainActivity extends AppCompatActivity {
      */
     private void openSerialPort() {
         // UsbDevice의 name으로 Serial Port를 연다.
-        serialPort = new com.cydinfo.jssc.SerialPort(serialDevice.getDeviceName());
+        serialPort = new SerialPort(serialDevice.getDeviceName());
 
         try {
             serialPort.openPort();
             serialPort.setParams(BAUD_RATE, 8, 1, 0);
-            serialPort.setFlowControlMode(com.cydinfo.jssc.SerialPort.FLOWCONTROL_XONXOFF_OUT);
+            serialPort.setFlowControlMode(SerialPort.FLOWCONTROL_XONXOFF_OUT);
             serialPort.addEventListener(mSerialPortEventListener);
 
         } catch (SerialPortException e) {
