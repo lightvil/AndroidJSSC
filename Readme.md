@@ -11,3 +11,9 @@ ndk {
 
 While building, the cpp files will be compiled to .so files (for each platform) and will be added to the generated apk. Please note that I have not added the searil port read/write functionality. 
 
+## To publish to Local Maven
+```
+# At Terminal
+cd jssc
+../gradlew publishToMavenLocal
+```
