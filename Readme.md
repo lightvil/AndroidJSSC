@@ -16,4 +16,5 @@ While building, the cpp files will be compiled to .so files (for each platform) 
 # At Terminal
 cd jssc
 ../gradlew publishToMavenLocal
+# 또는 Gradle View에서 jssc를 선택한 후 gradle publishToMavenLocal 실행 
 ```
