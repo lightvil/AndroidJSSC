@@ -1,0 +1,20 @@
+# ninja log v5
+0	50	1665997746	CMakeFiles/jssc-lib.dir/src/main/cpp/jssc.cpp.o	2f5215b7117372f5
+51	80	1665997746	../../../../build/intermediates/cxx/Debug/404p6i1i/obj/x86/libjssc-lib.so	93b42030c793d5e4
+0	3	0	clean	5dcdbc9b0967a1b1
+1	47	1665997863	CMakeFiles/jssc-lib.dir/src/main/cpp/jssc.cpp.o	2f5215b7117372f5
+47	78	1665997863	../../../../build/intermediates/cxx/Debug/404p6i1i/obj/x86/libjssc-lib.so	93b42030c793d5e4
+0	3	0	clean	5dcdbc9b0967a1b1
+0	3	0	clean	5dcdbc9b0967a1b1
+1	52	1665998119	CMakeFiles/jssc-lib.dir/src/main/cpp/jssc.cpp.o	2f5215b7117372f5
+52	88	1665998119	../../../../build/intermediates/cxx/Debug/404p6i1i/obj/x86/libjssc-lib.so	93b42030c793d5e4
+0	3	0	clean	5dcdbc9b0967a1b1
+1	52	1665998170	CMakeFiles/jssc-lib.dir/src/main/cpp/jssc.cpp.o	2f5215b7117372f5
+52	81	1665998170	../../../../build/intermediates/cxx/Debug/404p6i1i/obj/x86/libjssc-lib.so	93b42030c793d5e4
+0	5	0	clean	5dcdbc9b0967a1b1
+1	46	1666001161	CMakeFiles/jssc-lib.dir/src/main/cpp/jssc.cpp.o	2f5215b7117372f5
+46	86	1666001161	../../../../build/intermediates/cxx/Debug/404p6i1i/obj/x86/libjssc-lib.so	93b42030c793d5e4
+0	3	0	clean	5dcdbc9b0967a1b1
+0	3	0	clean	5dcdbc9b0967a1b1
+0	56	1666001281	CMakeFiles/jssc-lib.dir/src/main/cpp/jssc.cpp.o	2f5215b7117372f5
+56	88	1666001281	../../../../build/intermediates/cxx/Debug/404p6i1i/obj/x86/libjssc-lib.so	93b42030c793d5e4

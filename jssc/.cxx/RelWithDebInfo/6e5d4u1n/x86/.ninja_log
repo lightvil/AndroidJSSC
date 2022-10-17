@@ -1,0 +1,21 @@
+# ninja log v5
+0	2	0	clean	5dcdbc9b0967a1b1
+0	2	0	clean	5dcdbc9b0967a1b1
+0	94	1665991921	CMakeFiles/jssc-lib.dir/src/main/cpp/jssc.cpp.o	7fcd646c305fb2b1
+95	128	1665991921	../../../../build/intermediates/cxx/RelWithDebInfo/6e5d4u1n/obj/x86/libjssc-lib.so	707a91fc190f6e60
+0	4	0	clean	5dcdbc9b0967a1b1
+0	3	0	clean	5dcdbc9b0967a1b1
+1	100	1665992809	CMakeFiles/jssc-lib.dir/src/main/cpp/jssc.cpp.o	7fcd646c305fb2b1
+100	126	1665992809	../../../../build/intermediates/cxx/RelWithDebInfo/6e5d4u1n/obj/x86/libjssc-lib.so	707a91fc190f6e60
+0	3	0	clean	5dcdbc9b0967a1b1
+1	105	1665993409	CMakeFiles/jssc-lib.dir/src/main/cpp/jssc.cpp.o	7fcd646c305fb2b1
+105	136	1665993409	../../../../build/intermediates/cxx/RelWithDebInfo/6e5d4u1n/obj/x86/libjssc-lib.so	707a91fc190f6e60
+0	4	0	clean	5dcdbc9b0967a1b1
+0	2	0	clean	5dcdbc9b0967a1b1
+0	3	0	clean	5dcdbc9b0967a1b1
+0	4	0	clean	5dcdbc9b0967a1b1
+0	3	0	clean	5dcdbc9b0967a1b1
+0	2	0	clean	5dcdbc9b0967a1b1
+0	3	0	clean	5dcdbc9b0967a1b1
+0	3	0	clean	5dcdbc9b0967a1b1
+0	3	0	clean	5dcdbc9b0967a1b1

@@ -1,0 +1,18 @@
+                    -H/home/lightvil/StudioProjects/AndroidJSSC/jssc
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=28
+-DANDROID_PLATFORM=android-28
+-DANDROID_ABI=x86
+-DCMAKE_ANDROID_ARCH_ABI=x86
+-DANDROID_NDK=/home/lightvil/Android/Sdk/ndk/23.1.7779620
+-DCMAKE_ANDROID_NDK=/home/lightvil/Android/Sdk/ndk/23.1.7779620
+-DCMAKE_TOOLCHAIN_FILE=/home/lightvil/Android/Sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/home/lightvil/Android/Sdk/cmake/3.18.1/bin/ninja
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/lightvil/StudioProjects/AndroidJSSC/jssc/build/intermediates/cxx/Debug/404p6i1i/obj/x86
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/home/lightvil/StudioProjects/AndroidJSSC/jssc/build/intermediates/cxx/Debug/404p6i1i/obj/x86
+-DCMAKE_BUILD_TYPE=Debug
+-B/home/lightvil/StudioProjects/AndroidJSSC/jssc/.cxx/Debug/404p6i1i/x86
+-GNinja
+                    Build command args: []
+                    Version: 2

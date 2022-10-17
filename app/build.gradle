@@ -1,17 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 31
     defaultConfig {
-        applicationId "com.shyam.androidjssc"
-        minSdkVersion 21
-        targetSdkVersion 28
+        applicationId "com.cydinfo.jscc"
+        minSdkVersion 28
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        ndk {
-            abiFilters "armeabi-v7a", "x86"
-        }
     }
     buildTypes {
         release {
@@ -19,16 +16,28 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    externalNativeBuild {
-        cmake {
-            path "CMakeLists.txt"
-        }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
+    ndkVersion '25.1.8937393'
+    namespace 'com.cydinfo.jscc'
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.cydinfo:jssc:1.0'
+    // org.scream3r.jssc를 사용하지 않고 com.cydinfo.jssc를 사용할 수 있게
+    // org.scream3r.jssc를 제외한다.
+    implementation ('com.cydinfo:cyd-commons:0.0.1-SNAPSHOT') {
+        exclude group: 'org.scream3r', module: 'jssc'
+    }
+    implementation ('com.cydinfo:dreamphone-bm64:0.0.1-SNAPSHOT') {
+        exclude group: 'org.scream3r', module: 'jssc'
+    }
+
+    //implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'

@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "/home/lightvil/StudioProjects/AndroidJSSC/jssc/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/lightvil/Android/Sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/home/lightvil/StudioProjects/AndroidJSSC/jssc/.cxx/Debug/2p4x6k71/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/lightvil/Android/Sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/home/lightvil/StudioProjects/AndroidJSSC/jssc/.cxx/Debug/2p4x6k71/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "jssc-lib::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "jssc-lib",
+      "output": "/home/lightvil/StudioProjects/AndroidJSSC/jssc/build/intermediates/cxx/Debug/2p4x6k71/obj/x86/libjssc-lib.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/lightvil/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/home/lightvil/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

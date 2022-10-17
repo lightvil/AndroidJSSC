@@ -1,0 +1,3 @@
+/home/lightvil/StudioProjects/AndroidJSSC/jssc/.cxx/Debug/2p4x6k71/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/lightvil/StudioProjects/AndroidJSSC/jssc/.cxx/Debug/2p4x6k71/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/lightvil/StudioProjects/AndroidJSSC/jssc/.cxx/Debug/2p4x6k71/armeabi-v7a/CMakeFiles/jssc-lib.dir

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/lightvil/StudioProjects/AndroidJSSC/jssc/.cxx/RelWithDebInfo/6e5d4u1n/armeabi-v7a",
+  "command": "/home/lightvil/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi28 --gcc-toolchain=/home/lightvil/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/lightvil/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Djssc_lib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC -o CMakeFiles/jssc-lib.dir/src/main/cpp/jssc.cpp.o -c /home/lightvil/StudioProjects/AndroidJSSC/jssc/src/main/cpp/jssc.cpp",
+  "file": "/home/lightvil/StudioProjects/AndroidJSSC/jssc/src/main/cpp/jssc.cpp"
+}
+]
